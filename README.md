@@ -1,60 +1,43 @@
-🐉 Dragões - Game of Thrones
-Bem-vindo ao repositório do projeto Dragões - Game of Thrones! Este é um projeto web interativo desenvolvido com foco nos dragões da Casa Targaryen.
+# Dragões - Game of Thrones 🌐
 
-🌐 Sobre o Projeto
-A aplicação permite visualizar diferentes dragões, alternando entre imagens e informações de forma dinâmica através da interação com botões.
+Este projeto é uma página web interativa dedicada aos dragões do universo de "Game of Thrones", com foco nos dragões Targaryen. Através da interação com botões, o usuário pode explorar informações sobre cada dragão, incluindo imagens e descrições.
 
-Este projeto marca meu retorno à programação após cerca de 2 anos sem praticar. Decidi retomar os estudos e recomeçar minha jornada no desenvolvimento web. Durante esse processo, utilizei um código antigo como base e, com o auxílio de inteligência artificial para tirar dúvidas e corrigir erros, consegui refatorar e melhorar o projeto, reaprendendo e consolidando os conceitos de front-end.
+Este projeto também marca meu retorno à programação após um longo período sem prática. Utilizei um código antigo como base e, com o apoio de ferramentas de IA para tirar dúvidas e corrigir erros, consegui refatorar e melhorar a aplicação.
 
-🚀 Funcionalidades
-Troca dinâmica entre diferentes dragões.
+## Funcionalidades 🛠️
 
-Atualização em tempo real da imagem, nome e descrição.
+* Interatividade com botões para alternar entre diferentes dragões
+* Atualização dinâmica de nome, descrição e imagem
+* Layout responsivo para diferentes dispositivos
 
-Interface simples e interativa.
+## Tecnologias Utilizadas 💻
 
-Layout responsivo adaptado para diferentes dispositivos.
+* HTML5
+* CSS3
+* JavaScript
 
-💻 Tecnologias Utilizadas
-HTML5
+## Estrutura do Projeto 📄
 
-CSS3
+* `index.html`: Estrutura principal da página
+* `Css/style.css`: Estilização e layout
+* `script.js`: Lógica de interatividade
+* `Imagens/`: Arquivos de imagem dos dragões
 
-JavaScript
+## Demonstração 📸
 
-📁 Estrutura do Projeto
+*(Adicione aqui um print ou GIF do projeto rodando)*
 
-Dragoes-GameOfThrones
-┣ 📂 Css
-┃ ┗ 📄 style.css
-┣ 📂 Imagens
-┃ ┣ 📄 Balerion.png
-┃ ┣ 📄 Caraxes.jpg
-┃ ┣ 📄 Sunfyre.jpg
-┃ ┣ 📄 Syrax.png
-┃ ┣ 📄 Vermithor.jpg
-┃ ┗ 📄 Vhagar.png
-┣ 📄 index.html
-┣ 📄 script.js
-┗ 📄 README.md
+## Como Usar 🚀
 
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/JorgeTGS/Dragoes-GameOfThrones.git](https://github.com/JorgeTGS/Dragoes-GameOfThrones.git)
+Abra o arquivo index.html no seu navegador.
 
-🧠 Aprendizados
-Este projeto foi fundamental para revisar e praticar os seguintes conceitos:
+Utilize os botões para navegar entre os dragões.
 
-Manipulação do DOM com JavaScript;
+Contribuição 🎉
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-Organização de projetos front-end;
-
-Eventos de clique e interação do usuário;
-
-Atualização dinâmica de conteúdo na página;
-
-Estruturação de projetos web.
-
-📌 Observação
-Este projeto faz parte do meu processo de retorno aos estudos em programação e evolução como desenvolvedor front-end.
-
-👨‍💻 Autor
-Jorge Jordão de Araújo Silva
-
+Autor 🖊️
+Jorge Jordão de Araújo
