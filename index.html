@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="script.js" defer></script> 
+    <!-- 
+O atributo "defer" faz com que o JavaScript seja carregado em paralelo
+ao HTML, mas só seja executado depois que toda a página estiver carregada.
+Isso evita erros ao tentar acessar elementos que ainda não existem no DOM.
+-->
+    
+    <title>Dragões</title>
+</head>
+
+<body> 
+    <div class="FundoPrincipal">
+
+        <img id="ImgDragao" src="Imagens/Balerion.png">
+
+        <div class="Bio">
+            <ul id="AlterarMargem">
+                <li>
+                    <h1 id="Titulo">Balerion the Black Dread</h1>
+                </li>
+                <li>
+                    <p id="Descricao">
+                        O maior e mais veterano dos dragões Targaryen, Balerion, foi montado por Aegon the Conqueror e mais tarde, ainda que durante um espaço de tempo muito curto, pelo Rei Viserys I. O dragão negro e vermelho morreu antes do início de House of the Dragon, mas a sua gigantesca caveira pode ser apreciada em exposição no Red Keep.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="ProxDragoes">
+            <ul>
+                <li>
+                    <button class="Botao Ativado" onclick="TrocaDeConteudo('B1'); ModoAtivo(this)"></button>
+                    <button class="Botao" onclick="TrocaDeConteudo('B2'); ModoAtivo(this)"></button>
+                    <button class="Botao" onclick="TrocaDeConteudo('B3'); ModoAtivo(this)"></button>
+                    <button class="Botao" onclick="TrocaDeConteudo('B4'); ModoAtivo(this)"></button>
+                    <button class="Botao" onclick="TrocaDeConteudo('B5'); ModoAtivo(this)"></button>
+                    <button class="Botao" onclick="TrocaDeConteudo('B6'); ModoAtivo(this)"></button>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
